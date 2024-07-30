@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.6.8" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45233.5929992245" ReportOptions.Description.Text="" ReportOptions.LastChange="45234.938491794" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403E80003546F7003000108446174617365747301010C3E00000020446174615365743D2264625F646174617365745F72696E6369616E2220446174615365744E616D653D2264625F646174617365745F72696E6369616E220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" Height="22.67718" Left="0" Top="18.89765" Width="793.7013">
+      <TfrxMemoView Name="Memo1" Left="37.7953" Top="3.77953" Width="166.29932" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="DATA RINCIAN PESANAN"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="22.67718" Left="0" Top="147.40167" Width="793.7013" ColumnWidth="0" ColumnGap="0" DataSet="db_dataset_rincian" DataSetName="db_dataset_rincian" RowCount="0">
+      <TfrxMemoView Name="Memo2" Left="37.7953" Top="3.77953" Width="113.3859" Height="18.89765" ShowHint="False" DataSet="db_dataset_user" DataSetName="db_dataset_user" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[db_dataset_rincian.&#34;ID_Rincian&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="188.9765" Top="3.77953" Width="113.3859" Height="18.89765" ShowHint="False" DataSet="db_dataset_user" DataSetName="db_dataset_user" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[db_dataset_rincian.&#34;nama&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="340.1577" Top="3.77953" Width="113.3859" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[db_dataset_rincian.&#34;Pesanan&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="491.3389" Top="3.77953" Width="113.3859" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[db_dataset_rincian.&#34;Jumlah&#34;]"/>
+      <TfrxLineView Name="Line1" Left="170.07885" Top="0" Width="0" Height="22.67718" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line2" Left="321.26005" Top="0" Width="0" Height="22.67718" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line3" Left="472.44125" Top="0" Width="0" Height="22.67718" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line4" Left="623.62245" Top="0" Width="0" Height="22.67718" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line10" Left="18.89765" Top="0" Width="0" Height="22.67718" ShowHint="False" Diagonal="True"/>
+    </TfrxMasterData>
+    <TfrxHeader Name="Header1" Height="22.67718" Left="0" Top="102.04731" Width="793.7013">
+      <TfrxMemoView Name="Memo6" Left="37.7953" Top="3.77953" Width="113.3859" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="ID RINCIAN"/>
+      <TfrxMemoView Name="Memo7" Left="188.9765" Top="3.77953" Width="113.3859" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="NAMA"/>
+      <TfrxMemoView Name="Memo8" Left="340.1577" Top="3.77953" Width="113.3859" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="PESANAN"/>
+      <TfrxMemoView Name="Memo9" Left="491.3389" Top="3.77953" Width="113.3859" Height="18.89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="JUMLAH"/>
+      <TfrxLineView Name="Line5" Left="623.62245" Top="0" Width="0" Height="22.67718" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line6" Left="472.44125" Top="0" Width="0" Height="22.67718" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line7" Left="321.26005" Top="0" Width="0" Height="22.67718" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line8" Left="170.07885" Top="0" Width="0" Height="22.67718" ShowHint="False" Diagonal="True"/>
+      <TfrxLineView Name="Line9" Left="18.89765" Top="0" Width="0" Height="22.67718" ShowHint="False" Diagonal="True"/>
+    </TfrxHeader>
+  </TfrxReportPage>
+</TfrxReport>
